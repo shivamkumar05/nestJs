@@ -10,7 +10,7 @@ export class BookService {
     //add books 
     addBookServices (book : Book) : string {
 
-        book.id = uuidv4()
+        // book.id = uuidv4()
         this.books.push(book)
         return "book added sucessfully"
     }
